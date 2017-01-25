@@ -224,3 +224,6 @@ ul.social-network.social-circle li a:hover {
   overflow: hidden;
 }
 
+.md-blog.post-list .post-content {
+  max-height: 25vh;
+}

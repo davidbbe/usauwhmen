@@ -36,7 +36,7 @@ class MD_Widget_Recent_Posts extends WP_Widget {
 		<ul>
 		<?php
 			$rPosts = new WP_Query();
-			$rPosts->query( array( 'showposts='.$instance['count'], 'cat' => -7 ));
+			$rPosts->query( array( 'showposts='.$instance['count'], 'cat' => -6 ));
 				while ($rPosts->have_posts()) : $rPosts->the_post(); ?>
 				<?php
 					$thumb = wp_get_attachment_image_src(get_post_thumbnail_id(), 'thumbnail' );

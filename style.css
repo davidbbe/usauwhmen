@@ -134,7 +134,6 @@ input[type="search"],
 input[type="date"],
 .chosen-single{
 	width: 100%;
-	background: #f9f9f9;
 	border: 1px solid #e1e1e1;
 	padding: 0 15px;
 	height: 44px;
