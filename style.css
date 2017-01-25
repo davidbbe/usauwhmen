@@ -2863,8 +2863,3 @@ footer .widget_md_widget_flickr .flickr_badge_image{
 	border-color: rgba(0, 0, 0, 0.5) !important;
 	color: #fff;
 }
-
-/* Over Rides */
-#header-content #logo img {
-	max-width: 150px;
-}

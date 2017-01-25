@@ -110,13 +110,12 @@ if(!function_exists('md_theme_scripts')) {
         $protocol = is_ssl() ? 'https' : 'http';
         wp_enqueue_style( MD_THEME_NAME.'-shortcodes-fonts', "$protocol://fonts.googleapis.com/css?family=Open+Sans:400,700,300,800" );
         wp_enqueue_style( MD_THEME_NAME.'-default-fonts', "$protocol://fonts.googleapis.com/css?family=Merriweather:400italic,400,300,700,700italic" );
-
         wp_enqueue_style( MD_THEME_NAME, get_stylesheet_uri(), '', '', 'all' );
         wp_enqueue_style( MD_THEME_NAME.'-generate', MD_THEME_URI . '/assets/css/css-generate.php', '', '', 'all' );
         wp_enqueue_style( MD_THEME_NAME.'-custom', MD_THEME_URI . '/assets/css/custom.css', '', '', 'all' );
+        wp_enqueue_style( MD_THEME_NAME.'-font-awesome', "$protocol://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" );
 
         wp_enqueue_script( MD_THEME_NAME.'-bootstrap', MD_THEME_URI.'/assets/js/vendor/bootstrap.js', array('jquery'), NULL, true );
-        
         wp_enqueue_script( MD_THEME_NAME.'-plugins', MD_THEME_URI.'/assets/js/vendor/plugins.js', array('jquery'), NULL, true );
         wp_enqueue_script( MD_THEME_NAME, MD_THEME_URI.'/assets/js/theme.js', array('jquery'), NULL, true );
         

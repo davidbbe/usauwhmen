@@ -3,3 +3,224 @@
 /* BACKUP THIS FILE BEFORE UPDATE YOUR THEME */
 /*											 */
 /*********************************************/
+/* Over Rides */
+#header-content #logo img {
+  max-width: 150px;
+}
+
+ul.social-network {
+  float: left;
+  list-style: none;
+  display: inline;
+  margin-left: 0;
+  margin-bottom: 0;
+  padding: 0
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px
+}
+
+ul.social-network li:first-child {
+  margin-left: 0
+}
+
+ul.social-network a.icoRss:hover {
+  background-color: #F56505
+}
+
+ul.social-network a.icoEmail:hover {
+  background-color: #777
+}
+
+ul.social-network a.icoFacebook:hover {
+  background-color: #3B5998
+}
+
+ul.social-network a.icoTwitter:hover {
+  background-color: #3cf
+}
+
+ul.social-network a.icoInstagram:hover {
+  background-color: #3f729b
+}
+
+ul.social-network a.icoGoogle-plus:hover {
+  background-color: #DC4E41
+}
+
+ul.social-network a.icoPinterest:hover {
+  background-color: #cc2127
+}
+
+ul.social-network a.icoLinkedin:hover {
+  background-color: #007bb7
+}
+
+ul.social-network a.icoFacebook:hover i,ul.social-network a.icoInstagram:hover i,ul.social-network a.icoLinkedin:hover i,ul.social-network a.icoPinterest:hover i,ul.social-network a.icoTwitter:hover i,ul.social-network a.icoVimeo:hover i {
+  color: #fff
+}
+
+ul.social-network .socialHoverClass,ul.social-network a.socialIcon:hover {
+  color: #44BCDD
+}
+
+ul.social-network.social-circle i {
+  color: #fff;
+  margin: 0;
+  line-height: 30px;
+  text-align: center
+}
+
+ul.social-network.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  background-color: #D3D3D3;
+  -webkit-transition: all .2s;
+  transition: all .2s
+}
+
+ul.social-network.social-circle li a:hover {
+  -webkit-transition: all .2s;
+  transition: all .2s
+}
+
+
+/* CONTACT PAGE */
+.contact-page .contact-desc {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.8em;
+}
+.contact-page .contact-desc h1 {
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+.contact-page .contact-team ul.social-network.social-circle {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
+}
+.contact-page .contact-team ul.social-network.social-circle li a {
+  width: 27px;
+  height: 27px;
+  font-size: 18px;
+  margin-top: 0px;
+}
+.contact-page .contact-team ul.social-network.social-circle i {
+  line-height: 24px;
+}
+.contact-page .contact-info {
+  padding: 40px 0;
+}
+.contact-page .contact-info h3 {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.contact-page .contact-info h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.contact-page .contact-info .contact-info-p {
+  margin-bottom: 20px;
+}
+.contact-page .contact-page-form .error {
+  padding: 5px 9px;
+  border: 1px solid red;
+  color: red;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.contact-page .contact-page-form .success {
+  padding: 5px 9px;
+  border: 1px solid green;
+  color: green;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.contact-page .contact-page-form form span {
+  color: red;
+}
+.contact-page .contact-page-form label {
+  font-weight: normal;
+}
+.featured-maker-panel-circle {
+  padding-top: 5px;
+}
+.featured-maker-panel-circle .featured-maker {
+  padding: 15px;
+}
+.featured-maker-panel-circle .featured-maker .maker-img {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  background-size: cover;
+  background-position: center center;
+  border: 1px solid #999;
+  border-radius: 50%;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .featured-maker-panel-circle .featured-maker .maker-img {
+    height: 180px;
+    width: 180px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .featured-maker-panel-circle .featured-maker .maker-img {
+    height: 150px;
+    width: 150px;
+  }
+}
+@media (max-width: 767px) {
+  .featured-maker-panel-circle .featured-maker .maker-img {
+    height: 40vw;
+    width: 40vw;
+  }
+}
+.featured-maker-panel-circle .featured-maker .maker-panel-text {
+  height: 126px;
+  margin-top: 15px;
+}
+@media (max-width: 767px) {
+  .featured-maker-panel-circle .featured-maker .maker-panel-text {
+    height: 52px;
+  }
+}
+.featured-maker-panel-circle .featured-maker .maker-panel-text h4 {
+  color: #333;
+  text-align: center;
+  font-family: Roboto, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 25px;
+  max-height: 68px;
+  overflow: hidden;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+@media (max-width: 767px) {
+  .featured-maker-panel-circle .featured-maker .maker-panel-text h4 {
+    max-height: 71px;
+  }
+}
+.featured-maker-panel-circle .featured-maker .maker-panel-text p {
+  color: #666;
+  text-align: center;
+  font-size: 14px;
+  line-height: 22px;
+  max-height: 69px;
+  overflow: hidden;
+}
+
