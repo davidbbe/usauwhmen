@@ -7,6 +7,11 @@
 #header-content #logo img {
   max-width: 150px;
 }
+@media screen and (max-width: 991px) {
+  #header-content #logo img {
+    max-width: 90px;
+  }
+}
 
 ul.social-network {
   float: left;
@@ -226,4 +231,17 @@ ul.social-network.social-circle li a:hover {
 
 .md-blog.post-list .post-content {
   max-height: 25vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.md-blog.post-list .post-content:after {
+  content: "";
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
 }
